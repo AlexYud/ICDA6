@@ -11,7 +11,11 @@ A ideia desse repositório é guardar os códigos desenvolvidos nas atividades d
 
 # Temas das atividades
 
-- [Estudo sobre a classe Collectors](https://github.com/AlexYud/LP3A5/tree/master/Collectors).
+- [Comparando bases simples](https://github.com/AlexYud/ICDA6/tree/master/Aula%201).
+- [Usando Shinydashboard](https://github.com/AlexYud/ICDA6/tree/master/Aula%202).
+- [Análise básica SINASC compilado](https://github.com/AlexYud/ICDA6/tree/master/Aula%203).
+- [Manipulando dados com Dplyr](https://github.com/AlexYud/ICDA6/tree/master/Aula%204).
+- [Usando ggplot2 para visualização](https://github.com/AlexYud/ICDA6/tree/master/Aula%205).
 
 # Obs
 
