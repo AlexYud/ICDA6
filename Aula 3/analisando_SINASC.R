@@ -9,16 +9,16 @@ sinasc <- SINASC_2020_compilado%>%
   slice_head(n = 50000)
 
 idade <- sinasc %>% filter(IDADEMAE < 18) %>% count() 
-idade 
+ggplot(sinasc, aes(x=sinasc$IDADEMAE)) + geom_bar()
 
 # Das 50 mil maes, 5402 são menores de idade
 
 peso <- sinasc %>% filter(PESO < 3000) %>% count() 
-peso 
+ggplot(sinasc, aes(x=sinasc$PESO)) + geom_bar()
 
 # Dos 50 mil bebes, 14695 estão abaixo do peso considerado normal
 
 peso <- sinasc %>% filter(PESO > 3500) %>% count() 
-peso 
+ggplot(sinasc, aes(x=sinasc$PESO)) + geom_bar()
 
 # Dos 50 mil bebes, 14732 estão acima do peso considerado normal
