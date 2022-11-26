@@ -1,7 +1,7 @@
 # Repositório das atividades da matéria ICDA6
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/AlexYud/ICDA6/blob/master/LICENSE) 
 
-# Sobre o projeto
+# Sobre o repositório
 
 A ideia desse repositório é guardar os códigos desenvolvidos nas atividades da matéria de Introdução à Ciência de Dados. Dessa forma, os códigos sempre estarão disponíveis para o estudo e a consulta quando necessários.
 
