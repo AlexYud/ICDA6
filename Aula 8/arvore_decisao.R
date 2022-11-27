@@ -18,9 +18,9 @@ test<-data%>%
 test[[ "IDADEMAE"]] <- ordered(cut(test[[ "IDADEMAE"]], c(12,25,45, 49)),
                            labels = c("jovem", "adulto", "meia-idade"))
 
-test[[ "IDADEMAE"]]
+test[[ "IDADEMAE"]] # categórico para jovem, adulto e meia-idade
 
 test[["SEXO"]] <- ordered(cut(test[[ "SEXO"]], c(1,2)),
                                labels = c("feminino", "masculino"))
 
-test[["SEXO"]]
+test[["SEXO"]] # categórico para feminino e masculino
