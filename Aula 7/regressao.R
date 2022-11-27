@@ -4,10 +4,9 @@ library(dplyr)
 
 str(SINASC_2020_comp)
 
-
 #View(SINASC_2020_comp)
 ggplot(SINASC_2020_comp, aes(PESO,SEMAGESTAC))+
-  geom_point()
+  geom_point() # visualização
 
 set.seed(100)
 train_linha_sinasc <- sample(1:nrow(SINASC_2020_comp), 0.8*nrow(SINASC_2020_comp))  # índice da linha dos dados de treinamento
